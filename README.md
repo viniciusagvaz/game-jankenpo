@@ -6,13 +6,13 @@ It's the first functional game that I'll be learning for the next days to a tota
 
 The seven games will be listed at their difficult levels wich will be:
 
-1 - Rock Paper Scissors
-2 - Memory Game
-3 - Whac-a-mole
-4 - Breakout
-5 - Frogger
-6 - Connect Four
-7 - Space Invaders
+1 - Rock Paper Scissors<br>
+2 - Memory Game<br>
+3 - Whac-a-mole<br>
+4 - Breakout<br>
+5 - Frogger<br>
+6 - Connect Four<br>
+7 - Space Invaders<br>
 
 <hr>
 
