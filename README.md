@@ -1,4 +1,4 @@
-<h1>This is a rock-paper-scissors by Ania Kubów</h1>
+<h1>This is a rock-paper-scissors game by Ania Kubów</h1>
 
 It's the first functional game that I'll be learning for the next days to a total of seven games that will be taught at this course.
 <hr>
