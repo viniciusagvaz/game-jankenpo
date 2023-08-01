@@ -3,12 +3,13 @@
 It's the first functionalgame that I'll be learning for the next few days a total of seven games will be taught in this course.
 <a>https://viniciusagvaz.github.io/game-jankenpo/</a>
 <hr>
-<h2 align="center"> Project: 
+<h2 align="center"> Project: </h2>
+<div align="center">
+   <img width="200px" src="./assets/4.png" alt="">
    <img width="200px" src="./assets/1.png" alt="">
    <img width="200px" src="./assets/2.png" alt="">
    <img width="200px" src="./assets/3.png" alt="">
-   <img width="200px" src="./assets/4.png" alt="">
-<h2>
+</div>
 <div>
 <h3>JavaScript Properties and Methods cover:</h3>
 <ul>
