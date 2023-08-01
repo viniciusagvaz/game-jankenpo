@@ -2,11 +2,12 @@
 
 It's the first functionalgame that I'll be learning for the next few days a total of seven games will be taught in this course.
 <a>https://viniciusagvaz.github.io/game-jankenpo/</a>
+
 <hr>
 <h2 align="center"> Project: </h2>
 <div align="center">
-   <img width="200px" src="./assets/4.png" alt="">
    <img width="200px" src="./assets/1.png" alt="">
+   <img width="200px" src="./assets/4.png" alt="">
    <img width="200px" src="./assets/2.png" alt="">
    <img width="200px" src="./assets/3.png" alt="">
 </div>
@@ -39,8 +40,8 @@ It's the first functionalgame that I'll be learning for the next few days a tota
 <div align= "center">
 Check out her repositories at her GitHub page and the course itself:
 
-
 <a>https://github.com/kubowania</a>
 
 <a>https://www.youtube.com/watch?v=ec8vSKJuZTk</a>
+
 </div>
