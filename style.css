@@ -40,7 +40,7 @@ div#player-choices {
    flex-wrap: wrap-reverse;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
    img {
       max-width: 120px;
    }
