@@ -10,7 +10,7 @@ let result;
 possibleChoices.forEach((possibleChoice) =>
    possibleChoice.addEventListener("click", (e) => {
       userChoice = e.target.id;
-      userChoiceDisplay.innerHTML = `<p>Player</p><img src="./assets/${userChoice}.png"></img>` 
+      userChoiceDisplay.innerHTML = `<p>Player</p><img src="./assets/${userChoice}.png" alt="${userChoice}"></img>`
       genarateComputerChoice();
       getResult();
    })
@@ -29,22 +29,21 @@ const genarateComputerChoice = () => {
       computerChoice = "scissors";
    }
 
-   computerChoiceDisplay.innerHTML = `<p>Computer</p><img src="./assets/${computerChoice}.png"></img>`;
+   computerChoiceDisplay.innerHTML = `<p>Computer</p><img src="./assets/${computerChoice}.png" alt="${computerChoice}""></img>`;
 }
 
-
-function getResult() {
+const getResult = () => {
    computerChoice === userChoice ? result = "IT'S A DRAW!" : null
-   
+
    computerChoice === "rock" && userChoice === "paper" ||
-   computerChoice === "paper" && userChoice === "scissors" ||
-   computerChoice === "scissors" && userChoice === "rock" ?
-   result = 'YOU WIN!' : null
+      computerChoice === "paper" && userChoice === "scissors" ||
+      computerChoice === "scissors" && userChoice === "rock" ?
+      result = 'YOU WIN!' : null
 
    computerChoice === "rock" && userChoice === "scissors" ||
-   computerChoice === "paper" && userChoice === "rock" ||
-   computerChoice === "scissors" && userChoice === "paper" ?
-   result = 'YOU LOST!' : null
+      computerChoice === "paper" && userChoice === "rock" ||
+      computerChoice === "scissors" && userChoice === "paper" ?
+      result = 'YOU LOST!' : null
 
    resultDisplay.innerHTML = result
 }
