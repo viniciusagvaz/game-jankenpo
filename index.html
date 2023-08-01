@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jankenpo - Ex1</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Jankenpo - Ex1</title>
 </head>
+
 <body>
-  <h2>Computer Choice: <span id="computer-choice"></span></h2>
-  <h2>User Choice: <span id="user-choice"></span></h2>
-  <h2>Result: <span id="result"></span></h2>
 
-  <button id="rock">Rock</button>
-  <button id="paper">Paper</button>
-  <button id="scissors">Scissors</button>
+   <main>
+      <section>
+         <h1>Jankenpo!</h1>
 
-  
-  <script src="app.js"></script>
+         <div id="battle-container">
+            <span id="user-choice"></span>
+            <span id="computer-choice"></span>
+         </div>
+         
+         <h3><span id="result"></span></h3>
+         
+         <div id="player-choices">
+            <img id="rock" class="choice" src="./assets/rock.png" alt="rock">
+            <img id="paper" class="choice" src="./assets/paper.png" alt="paper">
+            <img id="scissors" class="choice" src="./assets/scissors.png" alt="">
+         </div>
+      </section>
+   </main>
+
+
+   <script src="app.js"></script>
 </body>
+
 </html>
