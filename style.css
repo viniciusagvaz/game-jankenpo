@@ -42,6 +42,6 @@ div#player-choices {
 
 @media (max-width: 480px) {
    img {
-      max-width: 100px;
+      max-width: 120px;
    }
 }
