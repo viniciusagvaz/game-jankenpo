@@ -21,23 +21,21 @@ const genarateComputerChoice = () => {
 
    if (randomNumber === 1) {
       computerChoice = "rock";
-
    }
    if (randomNumber === 2) {
       computerChoice = "paper"
-
-      
    }
    if (randomNumber === 3) {
       computerChoice = "scissors";
    }
+
    computerChoiceDisplay.innerHTML = `<p>Computer</p><img src="./assets/${computerChoice}.png"></img>`;
 }
 
 
 function getResult() {
    computerChoice === userChoice ? result = "IT'S A DRAW!" : null
-
+   
    computerChoice === "rock" && userChoice === "paper" ||
    computerChoice === "paper" && userChoice === "scissors" ||
    computerChoice === "scissors" && userChoice === "rock" ?
