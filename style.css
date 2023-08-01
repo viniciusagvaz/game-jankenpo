@@ -11,6 +11,7 @@ body {
    background: var(--color-dark);
    color: var(--color-lg-green);
    font-size: 20px;
+   max-height: 1200px;
 }
 
 h1 {
@@ -40,7 +41,14 @@ div#player-choices {
    flex-wrap: wrap-reverse;
 }
 
-@media (max-width: 400px) {
+
+footer {
+   font-size: 0.8rem;
+   text-align: center;
+   margin-top: 5%;
+}
+
+@media (max-width: 420px) {
    img {
       max-width: 120px;
    }
