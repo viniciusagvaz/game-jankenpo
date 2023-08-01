@@ -29,7 +29,7 @@ const genarateComputerChoice = () => {
       computerChoice = "scissors";
    }
 
-   computerChoiceDisplay.innerHTML = `<p>Computer</p><img src="./assets/${computerChoice}.png" alt="${computerChoice}""></img>`;
+   computerChoiceDisplay.innerHTML = `<p>Computer</p><img src="./assets/${computerChoice}.png" alt="${computerChoice}"></img>`;
 }
 
 const getResult = () => {
