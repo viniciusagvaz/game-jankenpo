@@ -52,7 +52,8 @@ footer {
    text-decoration: overline;
 }
 
-@media (max-width: 580px) {
+
+@media (max-width: 767px) {
    img {
       max-width: 120px;
    }
