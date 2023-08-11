@@ -1,9 +1,5 @@
-<h1>This is a rock-paper-scissors game</h1>
+<h1 align='center'>This is a rock-paper-scissors game</h1>
 
-<a>https://viniciusagvaz.github.io/game-jankenpo/</a>
-
-<hr>
-<h2 align="center"> Project: </h2>
 <div align="center">
    <img width="200px" src="./assets/4.png" alt="">
    <img width="200px" src="./assets/1.png" alt="">
