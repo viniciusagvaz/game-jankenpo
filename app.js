@@ -38,7 +38,7 @@ const getResult = () => {
    computerChoice === "rock" && userChoice === "paper" ||
       computerChoice === "paper" && userChoice === "scissors" ||
       computerChoice === "scissors" && userChoice === "rock" ?
-      result = 'YOU WIN!' : null
+      result = 'YOU WON!' : null
 
    computerChoice === "rock" && userChoice === "scissors" ||
       computerChoice === "paper" && userChoice === "rock" ||
