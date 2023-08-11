@@ -1,6 +1,5 @@
-<h1>This is a rock-paper-scissors game by Ania Kubów</h1>
+<h1>This is a rock-paper-scissors game</h1>
 
-It's the first functionalgame that I'll be learning for the next few days a total of seven games will be taught in this course.
 <a>https://viniciusagvaz.github.io/game-jankenpo/</a>
 
 <hr>
@@ -34,14 +33,3 @@ It's the first functionalgame that I'll be learning for the next few days a tota
   <li>Connect Four
   <li>Space Invaders
 </ol>
-
-<div>
-<hr>
-<div align= "center">
-Check out her repositories at her GitHub page and the course itself:
-
-<a>https://github.com/kubowania</a>
-
-<a>https://www.youtube.com/watch?v=ec8vSKJuZTk</a>
-
-</div>
