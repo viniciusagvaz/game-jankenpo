@@ -42,7 +42,7 @@ div#player-choices {
    display: flex;
    justify-content: center;
    gap: 1rem;
-   flex-wrap: wrap-reverse;
+   flex-wrap: wrap;
 }
 
 
